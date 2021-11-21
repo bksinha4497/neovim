@@ -67,6 +67,7 @@ autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 " vim-aurline-themes config
 let g:airline_solarized_bg='dark'
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 " Required:
 filetype plugin indent on
