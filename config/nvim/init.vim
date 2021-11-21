@@ -18,7 +18,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
-NeoBundle 'jacoborus/tender.vim'
+NeoBundle 'jacoborus/tender.vim' " neovim color scheme
+NeoBundle 'preservim/nerdtree' " File system explorer
+NeoBundle 'akinsho/toggleterm.nvim' " A neovim plugin to persist and toggle multiple terminals during an editing session
 
 call neobundle#end()
 
@@ -46,6 +48,17 @@ filetype plugin on
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
 set noswapfile              " disable creating swap filei
+
+
+" NerdTree commands
+
+" Start NERDTree and put the cursor back in the other window.
+autocmd VimEnter * NERDTree | wincmd p
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+" Close the tab if NERDTree is the only window remaining in it.
+autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
 
 " Required:
 filetype plugin indent on
