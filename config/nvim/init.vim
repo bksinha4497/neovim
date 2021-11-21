@@ -21,6 +21,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'jacoborus/tender.vim' " neovim color scheme
 NeoBundle 'preservim/nerdtree' " File system explorer
 NeoBundle 'akinsho/toggleterm.nvim' " A neovim plugin to persist and toggle multiple terminals during an editing session
+NeoBundle 'vim-airline/vim-airline' " Lean & mean status/tabline for vim that's light as air.
+NeoBundle 'vim-airline/vim-airline-themes' " vim-airline-themes 
 
 call neobundle#end()
 
@@ -59,6 +61,9 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " Close the tab if NERDTree is the only window remaining in it.
 autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
+" vim-aurline-themes config
+let g:airline_solarized_bg='dark'
+let g:airline_powerline_fonts = 1
 
 " Required:
 filetype plugin indent on
