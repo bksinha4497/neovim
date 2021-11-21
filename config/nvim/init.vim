@@ -48,11 +48,11 @@ filetype plugin on
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
 set noswapfile              " disable creating swap filei
-
+"set spell spelllang=en_us   " Spell Checking enabled for Lang Code = en_us
 
 " NerdTree commands
 
-" Start NERDTree and put the cursor back in the other window.
+" Start NERDTree and put the cursor back in the other window
 autocmd VimEnter * NERDTree | wincmd p
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
