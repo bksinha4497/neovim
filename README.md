@@ -1,15 +1,8 @@
 # neovim
 Neovim config files
 
-# Install NeoBumdle plugin manager using  : 
+# Install packer.nvim plugin manager using  : 
 
-[NeoBundle](https://github.com/Shougo/neobundle)
+[packer.nvim](https://github.com/wbthomason/packer.nvim)
 
-```
-curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
-sh ./install.sh
-```
-## when using vim-airline theme below needs to be installed in your distro
-[Powerline Fonts](https://github.com/powerline/fonts)
-
-Arch Linux : `yay -S  powerline-fonts`
+Arch Linux : `yay - S nvim-packer-git`
