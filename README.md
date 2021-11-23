@@ -1,3 +1,6 @@
+![One](https://ibb.co/QCSJttv)
+![two](https://ibb.co/7gRZTPP)
+
 # neovim
 Neovim config files
 
