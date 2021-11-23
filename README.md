@@ -23,3 +23,6 @@ Arch Linux : `yay - S nvim-packer-git`
 
 ## vscode.nvim - vscode.nvim (former codedark.nvim) a Lua port of vim-code-dark colorscheme for neovim with vscode light and dark theme
 [vscode.nvim](https://github.com/Mofiqul/vscode.nvim)
+
+## telescope.nvim - telescope.nvim is a highly extendable fuzzy finder over lists.
+[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
