@@ -26,3 +26,13 @@ Arch Linux : `yay - S nvim-packer-git`
 
 ## telescope.nvim - telescope.nvim is a highly extendable fuzzy finder over lists.
 [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+
+ ### Dependencies for telescope.vim
+  #### Other Plugins : {'nvim-lua/plenary.nvim'} ,{'nvim-treesitter/nvim-treesitter'},{'nvim-treesitter/nvim-treesitter'}
+ > fd  - fd is a program to find entries in your filesystem
+ [fd](https://github.com/sharkdp)
+ Arch Linux : yay -S fd
+  
+ > ripgrep - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
+ [ripgrep](https://github.com/BurntSushi/ripgrep)
+ Arch Linux : yay -S ripgrep
