@@ -31,7 +31,8 @@ return require('packer').startup(function()
         config = function() require('plugins/nvim-web-devicons') end
       }
 
-  -- nvim-tree - file explorer
+
+ --- nvim-tree - file explorer
   use {
     'kyazdani42/nvim-tree.lua',
     requires = 'kyazdani42/nvim-web-devicons',
