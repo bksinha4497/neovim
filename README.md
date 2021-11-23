@@ -1,5 +1,5 @@
-![One](https://ibb.co/QCSJttv)
-![two](https://ibb.co/7gRZTPP)
+![One](https://ibb.co/QCSJttv/nvim1.png)
+![two](https://i.ibb.co/Q8CTqLL/nvim2.png)
 
 # neovim
 Neovim config files
