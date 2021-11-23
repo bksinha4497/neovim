@@ -21,11 +21,16 @@ return require('packer').startup(function()
  
   require('settings')
 
-  -- Toggleterm terminal
+  --- Toggleterm terminal
   use {"akinsho/toggleterm.nvim",
   config = function() require('plugins/toggleterm') end
   }
- 
+
+  --- Nvim-web-devicons - A lua fork of vim-devicons. This plugin provides the same icons as well as colors for each icon.
+  use {"kyazdani42/nvim-web-devicons",
+        config = function() require('plugins/nvim-web-devicons') end
+      }
+
   -- nvim-tree - file explorer
   use {
     'kyazdani42/nvim-tree.lua',
@@ -47,6 +52,12 @@ return require('packer').startup(function()
 
   --- WinShift lets you freely rearrange your window layouts by letting you move any window in any direction.
   use 'sindrets/winshift.nvim'
+
+  --- telescope.nvim is a highly extendable fuzzy finder over lists.
+  use {
+  'nvim-telescope/telescope.nvim',
+  requires = { {'nvim-lua/plenary.nvim'} ,{'nvim-treesitter/nvim-treesitter'},{'nvim-treesitter/nvim-treesitter'}}
+}
 
   -- Put this at the end after all plugins
   if packer_bootstrap then
