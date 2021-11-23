@@ -1,4 +1,4 @@
-![One](https://ibb.co/QCSJttv/nvim1.png)
+![One](https://i.ibb.co/wwGdjjh/nvim1.png)
 ![two](https://i.ibb.co/Q8CTqLL/nvim2.png)
 
 # neovim
