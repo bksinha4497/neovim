@@ -47,9 +47,10 @@ return require('packer').startup(function()
   statusline.lsp_diagnostics = false
   statusline.ale_diagnostics = true
 
-  ---  vscode.nvim (former codedark.nvim) a Lua port of vim-code-dark colorscheme for neovim with vscode light and dark theme
-  use 'Mofiqul/vscode.nvim'
-  vim.g.vscode_style = "dark"
+  --- Nebulous.nvim - Minimalist Collection of Colorschemes Written in Lua
+  use {'Yagua/nebulous.nvim',
+        config = function() require('plugins/nebulous') end
+    }
 
   --- WinShift lets you freely rearrange your window layouts by letting you move any window in any direction.
   use 'sindrets/winshift.nvim'

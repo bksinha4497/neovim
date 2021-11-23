@@ -69,6 +69,12 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["nebulous.nvim"] = {
+    config = { "\27LJ\1\0020\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\21plugins/nebulous\frequire\0" },
+    loaded = true,
+    path = "/home/bksinha4497/.local/share/nvim/site/pack/packer/start/nebulous.nvim",
+    url = "https://github.com/Yagua/nebulous.nvim"
+  },
   ["nvim-tree.lua"] = {
     config = { "\27LJ\1\0021\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\22plugins/nvim-tree\frequire\0" },
     loaded = true,
@@ -112,11 +118,6 @@ _G.packer_plugins = {
     path = "/home/bksinha4497/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["vscode.nvim"] = {
-    loaded = true,
-    path = "/home/bksinha4497/.local/share/nvim/site/pack/packer/start/vscode.nvim",
-    url = "https://github.com/Mofiqul/vscode.nvim"
-  },
   ["winshift.nvim"] = {
     loaded = true,
     path = "/home/bksinha4497/.local/share/nvim/site/pack/packer/start/winshift.nvim",
@@ -133,6 +134,10 @@ time([[Config for nvim-tree.lua]], false)
 time([[Config for nvim-web-devicons]], true)
 try_loadstring("\27LJ\1\0029\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\30plugins/nvim-web-devicons\frequire\0", "config", "nvim-web-devicons")
 time([[Config for nvim-web-devicons]], false)
+-- Config for: nebulous.nvim
+time([[Config for nebulous.nvim]], true)
+try_loadstring("\27LJ\1\0020\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\21plugins/nebulous\frequire\0", "config", "nebulous.nvim")
+time([[Config for nebulous.nvim]], false)
 -- Config for: toggleterm.nvim
 time([[Config for toggleterm.nvim]], true)
 try_loadstring("\27LJ\1\0022\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\23plugins/toggleterm\frequire\0", "config", "toggleterm.nvim")
