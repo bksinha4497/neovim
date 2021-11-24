@@ -14,7 +14,7 @@ Arch Linux : `yay - S nvim-packer-git`
 
 1. [Nebulous.nvim ](https://github.com/Yagua/nebulous.nvim) - Minimalist Collection of Colorschemes Written in Lua
 
-2 [ToggleTerm](https://github.com/akinsho/toggleterm.nvim) - A neovim plugin to persist and toggle multiple terminals during an editing session
+2. [ToggleTerm](https://github.com/akinsho/toggleterm.nvim) - A neovim plugin to persist and toggle multiple terminals during an editing session
 
 3. [Statusline.lua](https://github.com/beauwilliams/statusline.lua) - A tidy statusline for neovim written in lua featuring
 
