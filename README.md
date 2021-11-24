@@ -1,8 +1,14 @@
+# NEO VIM
+
+## Installation Instruction
+
+1. Install packages in Arch Linux using : `yay - S nvim-packer-git fd ripgrep`
+2. Run Command : `git clone https://github.com/bksinha4497/neovim.git && cp -r neovim/config/* ~/.confg/
+
+## Screenshot 
+
 ![One](https://i.ibb.co/wwGdjjh/nvim1.png)
 ![two](https://i.ibb.co/Q8CTqLL/nvim2.png)
-
-# neovim
-Neovim config files
 
 ## Install packer.nvim plugin manager using  : 
 
