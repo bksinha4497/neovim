@@ -4,31 +4,25 @@
 # neovim
 Neovim config files
 
-# Install packer.nvim plugin manager using  : 
+## Install packer.nvim plugin manager using  : 
 
 [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 Arch Linux : `yay - S nvim-packer-git`
 
-# Plugins
+## Plugins
 
-## Nebulous.nvim - Minimalist Collection of Colorschemes Written in Lua
-[Nebulous.nvim ](https://github.com/Yagua/nebulous.nvim)
+1. [Nebulous.nvim ](https://github.com/Yagua/nebulous.nvim) - Minimalist Collection of Colorschemes Written in Lua
 
-## ToggleTerm - A neovim plugin to persist and toggle multiple terminals during an editing session
-[ToggleTerm](https://github.com/akinsho/toggleterm.nvim)
+2 [ToggleTerm](https://github.com/akinsho/toggleterm.nvim) - A neovim plugin to persist and toggle multiple terminals during an editing session
 
-## Statusline - A tidy statusline for neovim written in lua featuring
-[Statusline.lua](https://github.com/beauwilliams/statusline.lua)
+3. [Statusline.lua](https://github.com/beauwilliams/statusline.lua) - A tidy statusline for neovim written in lua featuring
 
-## nvim-tree - A File Explorer For Neovim Written In Lua
-[nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
+4. [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) - A File Explorer For Neovim Written In Lua
 
-## WinShift.nvim - Rearrange your windows with ease.
-[WinShift.nvim](https://github.com/sindrets/winshift.nvim)
+5. [WinShift.nvim](https://github.com/sindrets/winshift.nvim) - Rearrange your windows with ease.
 
-## telescope.nvim - telescope.nvim is a highly extendable fuzzy finder over lists.
-[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+6. [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - telescope.nvim is a highly extendable fuzzy finder over lists.
 
  ### Dependencies for telescope.vim
   #### Other Plugins : {'nvim-lua/plenary.nvim'} ,{'nvim-treesitter/nvim-treesitter'},{'nvim-treesitter/nvim-treesitter'}
