@@ -37,5 +37,11 @@ Arch Linux : `yay - S nvim-packer-git`
  1. [fd  - fd is a program to find entries in your filesystem](https://github.com/sharkdp)
   install in arch linux : `yay -S fd`
   
- 2. [ripgrep - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.]ripgrep]
-  install in arch linux : `yay -S ripgrep`
+ 2. [ripgrep - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.](https://github.com/BurntSushi/ripgrep)
+   install in arch linux : `yay -S ripgrep`
+
+ 3. [Überzug - Überzug is a command line util which allows to draw images on terminals by using child windows.](https://github.com/seebye/ueberzug)
+   install in arch linux : `yay -S ueberzug`
+   
+ 4. [pdftoppm - Portable Document Format (PDF) to Portable Pixmap (PPM) converter (version 3.00)](https://linux.die.net/man/1/pdftoppm)
+   install in arch linux : `yay -S pdftoppm`
