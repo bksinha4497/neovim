@@ -2,7 +2,7 @@
 
 ## Installation Instruction
 
-1. Install packages in Arch Linux using : `yay - S nvim-packer-git fd ripgrep`
+1. Install packages in Arch Linux using : `yay - S nvim-packer-git fd ripgrep ueberzug pdftoppm`
 2. Run Command : `git clone https://github.com/bksinha4497/neovim.git && cp -r neovim/config/* ~/.confg/ `
 3. Open neovim using `nvim` and run command `:PackerSync`
 
@@ -34,12 +34,8 @@ Arch Linux : `yay - S nvim-packer-git`
  ### Dependencies for telescope.vim
   #### Other Plugins : {'nvim-lua/plenary.nvim'} ,{'nvim-treesitter/nvim-treesitter'},{'nvim-treesitter/nvim-treesitter'}
   
- > fd  - fd is a program to find entries in your filesystem
- 
- [fd](https://github.com/sharkdp)
- Arch Linux : `yay -S fd`
+ 1. [fd  - fd is a program to find entries in your filesystem](https://github.com/sharkdp)
+  install in arch linux : `yay -S fd`
   
- > ripgrep - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.
- 
- [ripgrep](https://github.com/BurntSushi/ripgrep)
- Arch Linux : `yay -S ripgrep`
+ 2. [ripgrep - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.]ripgrep]
+  install in arch linux : `yay -S ripgrep`
