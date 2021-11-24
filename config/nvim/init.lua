@@ -58,8 +58,11 @@ return require('packer').startup(function()
   --- telescope.nvim is a highly extendable fuzzy finder over lists.
   use {
   'nvim-telescope/telescope.nvim',
-  requires = { {'nvim-lua/plenary.nvim'} ,{'nvim-treesitter/nvim-treesitter'},{'nvim-treesitter/nvim-treesitter'}}
-}
+  requires = { {'nvim-lua/plenary.nvim'} ,{'nvim-treesitter/nvim-treesitter'},{'nvim-treesitter/nvim-treesitter'},{'nvim-telescope/telescope-media-files.nvim'}}
+  ,config = function() require('plugins/telescope') end
+  }    
+  require('telescope').load_extension('media_files')
+
 
   -- Put this at the end after all plugins
   if packer_bootstrap then
@@ -67,4 +70,3 @@ return require('packer').startup(function()
   end
 
 end)
-
