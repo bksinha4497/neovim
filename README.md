@@ -4,6 +4,7 @@
 
 1. Install packages in Arch Linux using : `yay - S nvim-packer-git fd ripgrep`
 2. Run Command : `git clone https://github.com/bksinha4497/neovim.git && cp -r neovim/config/* ~/.confg/ `
+3. Open neovim using `nvim` and run command `:PackerSync`
 
 ## Screenshot 
 
