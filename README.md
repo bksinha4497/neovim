@@ -44,4 +44,4 @@ Arch Linux : `paru -S nvim-packer-git`
    install in arch linux : `paru -S ueberzug`
    
  4. [pdftoppm - Portable Document Format (PDF) to Portable Pixmap (PPM) converter (version 3.00)](https://linux.die.net/man/1/pdftoppm)
-   install in arch linux : `paru -S pdftoppm`
+   install in arch linux : `paru -S poppler`
