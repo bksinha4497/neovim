@@ -15,7 +15,7 @@
 
 [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
-Arch Linux : `paru -S nvim-packer-git xclip`
+Arch Linux : `paru -S nvim-packer-git`
 
 ## Plugins
 
