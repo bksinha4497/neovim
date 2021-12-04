@@ -15,7 +15,7 @@
 
 [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
-Arch Linux : `yay - S nvim-packer-git xclip`
+Arch Linux : `paru -S nvim-packer-git xclip`
 
 ## Plugins
 
@@ -35,13 +35,13 @@ Arch Linux : `yay - S nvim-packer-git xclip`
   #### Other Plugins : {'nvim-lua/plenary.nvim'} ,{'nvim-treesitter/nvim-treesitter'},{'nvim-treesitter/nvim-treesitter'}
   
  1. [fd  - fd is a program to find entries in your filesystem](https://github.com/sharkdp)
-  install in arch linux : `yay -S fd`
+  install in arch linux : `paru -S fd`
   
  2. [ripgrep - ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern.](https://github.com/BurntSushi/ripgrep)
-   install in arch linux : `yay -S ripgrep`
+   install in arch linux : `paru -S ripgrep`
 
  3. [Überzug - Überzug is a command line util which allows to draw images on terminals by using child windows.](https://github.com/seebye/ueberzug)
-   install in arch linux : `yay -S ueberzug`
+   install in arch linux : `paru -S ueberzug`
    
  4. [pdftoppm - Portable Document Format (PDF) to Portable Pixmap (PPM) converter (version 3.00)](https://linux.die.net/man/1/pdftoppm)
-   install in arch linux : `yay -S pdftoppm`
+   install in arch linux : `paru -S pdftoppm`
